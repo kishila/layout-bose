@@ -1,0 +1,21 @@
+.recommended-product {
+  width: 280px;
+  
+  &__image {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  &__group {
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    font-weight: 700;
+  }
+}

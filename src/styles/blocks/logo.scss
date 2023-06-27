@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+
+  &__img {
+    height: 16px;
+    width: 125px;
+
+    @include hover(transform, scale(1.2));
+
+    @include onTablet {
+      height: 24px;
+      width: 188px;
+    }
+  }
+}
