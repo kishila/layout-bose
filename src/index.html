@@ -13,160 +13,176 @@
 <!-- #endregion Head -->
   <body class="page__content">
     <header class="header">
-      <div class="top-bar">
-        <a href="#" class="logo">
-          <img
-            class="logo__img"
-            src="images/logo-2x.png"
-            alt="Bose logo"
-          >
-        </a>
-
-        <div class="top-bar__icon">
-          <a href="tel:+1 234 5555-55-55" class="icon icon--phone"></a>
-          <a href="#menu" class="icon icon--menu"></a>
+      <div class="container">
+        <div class="header__content">
+          <div class="top-bar">
+            <a href="#" class="logo">
+              <img
+                class="logo__img"
+                src="images/logo-2x.png"
+                alt="Bose logo"
+              >
+            </a>
+            <div class="top-bar__icon">
+              <a href="tel:+1 234 5555-55-55" class="icon icon--phone"></a>
+              <a href="#menu" class="icon icon--menu"></a>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="header__waves"></div>
+            <h1 class="header__title">
+              The world shades.
+              <br>
+              Your music shines.
+            </h1>
+          </div>
         </div>
-      </div>
-      <div class="header__bottom">
-        <div class="header__waves"></div>
-
-        <h1 class="header__title">
-          The world shades.
-          <br>
-          Your music shines.
-        </h1>
       </div>
     </header>
 
     <aside class="menu page__menu" id="menu">
-      <div class="top-bar menu__top-bar">
-        <a href="#" class="logo">
-          <img
-            class="logo__img"
-            src="images/logo-2x.png"
-            alt="Bose logo"
-          >
-        </a>
-
-        <a href="#" class="icon icon--close"></a>
-      </div>
-
-      <div class="menu__content">
-        <nav class="nav menu__nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="#">Home</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#recommended">Recommended</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#categories">Categories</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#how-to-buy">How to buy</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        
-        <a href="tel:+1 234 5555-55-55" class="menu__phone-number">+1 234 5555-55-55</a>
-        <a href="tel:+1 234 5555-55-55" class="menu__call-to-order">call to order</a>
+      <div class="container">
+        <div class="top-bar menu__top-bar">
+          <a href="#" class="logo">
+            <img
+              class="logo__img"
+              src="images/logo-2x.png"
+              alt="Bose logo"
+            >
+          </a>
+          <a href="#" class="icon icon--close"></a>
+        </div>
+        <div class="menu__bottom">
+          <nav class="nav menu__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#recommended">Recommended</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#categories">Categories</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#how-to-buy">How to buy</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+      
+          <a href="tel:+1 234 5555-55-55" class="menu__phone-number">+1 234 5555-55-55</a>
+          <a href="tel:+1 234 5555-55-55" class="menu__call-to-order">call to order</a>
+        </div>
       </div>
     </aside>
 
     <main class="main">
-      <section class="recommended main__section" id="recommended">
-        <h2 class="main-titles recommended__title">
-          Recommended
-        </h2>
-
-        <article class="recommended-product recommended__product">
-          <a href="#">
-            <img
-            class="recommended-product__image"
-            src="images/portable-smart-speaker.png"
-            alt="Bose portable Smart speaker"
-            >
-          </a>
-
-          <h3 class="recommended-product__title">
-            Bose portable Smart speaker
-          </h3>
+      <div class="container">
+        <div class="main__content">
+          <section class="recommended" id="recomended">
+          <h2 class="section-titles recommended__title">
+              Recommended
+            </h2>
+            <div class="recommended__products">
+              <article class="product recommended__product">
+                <a href="#">
+                  <img
+                  class="product__photo"
+                  src="images/products/portable-smart-speaker.png"
+                  alt="Bose portable Smart speaker"
+                  >
+                </a>
+                <h3 class="product__title">
+                  Bose portable Smart speaker
+                </h3>
           
-          <p class="recommended-product__group">
-            Smart home
-          </p>
+                <p class="product__category">
+                  Smart home
+                </p>
           
-          <p class="recommended-product__price">
-            $ 399.00
-          </p>
-        </article>
-
-        <article class="recommended-product recommended__product">
-          <a href="#">
-            <img
-            class="recommended-product__image"
-            src="images/bluetooth-speaker.png"
-            alt="Bose portable Smart speaker"
-            >
-          </a>
-
-          <h3 class="recommended-product__title">
-            SoundLink Flex Bluetooth speaker
-          </h3>
+                <p class="product__price">
+                  $ 399.00
+                </p>
+              </article>
+              <article class="product recommended__product">
+                <a href="#">
+                  <img
+                  class="product__photo"
+                  src="images/products/bluetooth-speaker.png"
+                  alt="Bose portable Smart speaker"
+                  >
+                </a>
+                <h3 class="product__title">
+                  SoundLink Flex Bluetooth speaker
+                </h3>
           
-          <p class="recommended-product__group">
-            Portable bluetooth
-          </p>
+                <p class="product__category">
+                  Portable bluetooth
+                </p>
           
-          <p class="recommended-product__price">
-            $ 149.00
-          </p>
-        </article>
-
-        <article class="recommended-product recommended__product">
-          <a href="#">
-            <img
-            class="recommended-product__image"
-            src="images/bluetooth-speaker-II.png"
-            alt="Bose portable Smart speaker"
-            >
-          </a>
-
-          <h3 class="recommended-product__title">
-            SoundLink Color Bluetooth speaker II
-          </h3>
+                <p class="product__price">
+                  $ 149.00
+                </p>
+              </article>
+              <article class="product recommended__product">
+                <a href="#">
+                  <img
+                  class="product__photo"
+                  src="images/products/bluetooth-speaker-II.png"
+                  alt="Bose portable Smart speaker"
+                  >
+                </a>
+                <h3 class="product__title">
+                  SoundLink Color Bluetooth speaker II
+                </h3>
           
-          <p class="recommended-product__group">
-            Portable bluetooth
-          </p>
+                <p class="product__category">
+                  Portable bluetooth
+                </p>
           
-          <p class="recommended-product__price">
-            $ 129.00
-          </p>
-        </article>
-      </section>
+                <p class="product__price">
+                  $ 129.00
+                </p>
+              </article>
+            </div>npm start
+          </section>
+          <section class="categories" id="categories">
+          <h2 class="section-titles">
+              Browse Bose products by category
+            </h2>
+          </section>
+          <section class="how-to-buy" id="how-to-buy" >
+            <h2 class="
+              how-to-buy__title
+              section-titles
+              section-titles--align--left
+            ">
+              Why buy direct from Bose
+            </h2>
 
-      <section class="categories main__section" id="categories">
-        <h2 class="main-titles categories__title">
-          Browse Bose products by category
-        </h2>
-      </section>
+            <div class="how-to-buy__content">
+              <ul class="how-to-buy__benefits">
+                <li>Free 2-day shipping and returns</li>
+                <li>90-day risk-free trial</li>
+                <li>World class customer service</li>
+                <li>My Bose account management</li>
+              </ul>
 
-      <section class="how-to-buy main__section" id="how-to-buy">
-        <h2 class="main-titles how-to-buy__title">
-          Why buy direct from Bose
-        </h2>
-      </section>
-
-      <section class="contacts main__section" class="contacts">
-        <h2 class="main-titles contacts__title">
-          Contact us
-        </h2>
-      </section>
+              <p class="how-to-buy__description">
+                A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.
+              </p>
+            </div>
+          </section>
+          <section class="contacts" class="contacts">
+            <h2 class="section-titles">
+              Contact us
+            </h2>
+          </section>
+        </div>
+      </div>
     </main>
 
     <footer></footer>

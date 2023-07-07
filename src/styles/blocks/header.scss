@@ -1,15 +1,24 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  // display: none !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/header-bg.png);
 
+  &__content {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding-bottom: 40px;
+
+    @include onTablet {
+      padding-bottom: 64px;
+    }
+  }
+
   &__bottom {
-    @include contentPaddingInline;    
     padding-bottom: 40px;
 
     @include onTablet {

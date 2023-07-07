@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @include contentPaddingBlock;
-  @include contentPaddingInline;
+  padding-block: 24px;
+
+  @include onDesktop {
+    padding-block: 64px;
+  }
 
   &__icon {
     display: flex;
