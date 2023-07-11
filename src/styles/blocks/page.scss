@@ -3,7 +3,7 @@
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
-  color: $font-color;
+  color: $color-grey;
 
   scroll-behavior: smooth;
 
@@ -19,13 +19,9 @@
     transition: all 0.3s;
 
     transform: translateX(-100%);
-    // opacity: 0;
-    // pointer-events: none;
 
     &:target {
       transform: translateX(0);
-      // opacity: 1;
-      // pointer-events: all;
     }
   }
 

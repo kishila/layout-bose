@@ -1,0 +1,38 @@
+.buttons {
+  @include pageGrid;
+
+  .button {
+    height: 56px;
+    border-radius: 48px;
+    background-color: $color-grey;
+    border: 3px solid $color-grey;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #fff;
+      color: $color-grey;
+    }
+  
+    &:active {
+      background-color: $color-grey;
+      color: #fff;
+    }
+  }
+
+  &__categories {
+    grid-column: 1 / -1;
+
+    @include onTablet {
+      grid-column: 2 / -2;
+    }
+  
+    @include onDesktop {
+      grid-column: 5 / 9;
+    }
+  }
+}
